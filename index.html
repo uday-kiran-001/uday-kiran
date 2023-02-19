@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="public/css/styles.css">
+
+</head>
+<body>
+    <div class="floor" >
+        <div class="base" >
+
+            <!-- Navigation Bar -->
+            <section id="navigatonBar-section" >
+                <div class="navigationBar  animate__animated animate__fadeInDown" >
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          <i class="UK-icon fa-sharp fa-solid fa-circle"></i>
+                          <a class="navbar-brand me-auto" href="#">UK</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-end">
+                              <li class="nav-item ">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#projects-section">Projects</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#skills-section">Skills</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#footer-section">Contact</a>
+                              </li>
+                            </ul>
+                            
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+
+                
+            <!-- About -->
+            <section id="about1-section" >
+                <div class="about-div ">
+                  <div class="descrption animate__animated animate__fadeInLeft animate__delay-2s " >
+                    <h1>Hi, I'm Uday !</h1>
+                    <p>I'm an 19 year old chap from Hyderabad, India, looking for cool new job / freelancing opportunities. I can make webpages with great design, mobile-friendly and scalable using the latest technologies available. I can even help in developing web applications with MERN stack.
+                        <!-- <br><br>
+                        I can speak english, telugu, hindi. -->
+                    </p>
+                    <div class="social-contacts" >
+                        <button class="btn btn-dark" onclick="contact()" >Contact me</button>
+                        <div class="social-icon" ><a href="https://www.facebook.com/udaykiran.bonagiri.1?mibextid=ZbWKwL" ><img src="images/facebook-min.png" alt=""><i class="fa-brands fa-facebook"></i></a></div>
+                        <div class="social-icon" ><a href="https://instagram.com/uday_kiran_001?igshid=ZDdkNTZiNTM=" ><img src="images/instagram-min.png" alt=""><i class="fa-brands fa-instagram"></i></a></div>
+                        <div class="social-icon" ><a href="https://www.linkedin.com/in/uday-kiran-b016a7232" ><img src="images/linkedin-min.png" alt=""><i class="fa-brands fa-linkedin"></i></a></div>
+                        <div class="social-icon" ><a href="https://twitter.com/UdayKiran1312?t=xRFwMwyAv7QnG_kLVqXK-A&s=08" ><img src="images/twitter-min.png" alt=""><i class="fa-brands fa-twitter"></i></a></div>
+                    </div>
+                  </div>
+                  <img class="profile-img animate__animated animate__fadeIn animate__delay-1s " src="images/image-1-min.jpg" alt="profile-img" />
+                </div>
+            </section>
+
+            </section>
+
+
+            <!------------------------ Bot -------------------- -->
+            <div class="udays-bot" >
+
+                <div id="contact-button" onclick="contact()"><i class="contact-icon fa-regular fa-comment"></i></div>
+                
+                <div class="chatbot-floor bot-active" >
+                  <div class="chatbot-base" >
+                    <div class="sticky-header" >
+                      <div class="chatbot-header" >
+                        <img class="chatbot-profile-img" src="images/round-profile-min.png" alt="img">
+                        <div class="chatbot-header-text" >
+                          <h5>Uday's bot</h5>
+                          <p>Ask me a question!</p>
+                        </div>
+                      </div>
+                      <div class="chatbot-social-icons" >
+                        <a href="https://www.facebook.com/udaykiran.bonagiri.1?mibextid=ZbWKwL" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/uday_kiran_001?igshid=ZDdkNTZiNTM=" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/uday-kiran-b016a7232" ><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/UdayKiran1312?t=xRFwMwyAv7QnG_kLVqXK-A&s=08" ><i class="fa-brands fa-twitter"></i></a>
+                      </div>
+                    </div>
+                    
+                    <div id="idiot" class="chatbot-messagebox" >
+                      <!-- Dynamically added using JavaScript -->
+                    </div>
+                    
+                  </div>
+                </div>
+  
+              </div>
+
+            <!----------------- About ------------------>
+            <section id="about2-section" >
+                <div class="about" >
+                    <p>
+                        Hello ! I'm Uday, a student at IIIT Chennai majoring in Computer Science and Engineering.
+                        I'm a currently looking for freelance works or internships in Hyderabad.
+                        <br><br>
+                        I'm a person who has intrests in multiple fields such as Web3.0, Web Development, Machine 
+                        Learning and AI to name a few and I wanna explore these fields. 
+                        <br><br>
+                        I'm an enthusiast and  I strive for perfection in my work. I like trying out new things 
+                        in my area of work.
+                    </p>
+                </div>
+            </section>
+
+            <!--------------------------- Projects ---------------------------->
+            <section id="projects-section" >
+                <div class="projects" >
+
+                    <div class="project-sticky" >
+                        <h1>Frontend Projects</h1>
+                        <h3></h3>
+                        <div class="sticky-description">
+                            <p>
+                                # Drum Kit <br><br>
+                                # Simon Game <br><br>
+                                # Water Brand Template
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="projects-list" >
+                        <!-- Drum Kit -->
+                        <div class="project ">
+                            <div class="project-img" >
+                            <img src="images/Drumkit-min.png" alt="drumkit-img">
+                            </div>
+                            <div class="project-content">
+                            <div>
+                                <h5 class="project-title">Drum Kit</h5>
+                            <p class="project-text">We can add, delete, create new lists using this project. Data is restored everytime the user visits the page.</p>
+                            </div>  
+                            </div>
+                        </div>
+
+                        <!-- Simon game -->
+                        <div class="project ">
+                            <div class="project-img" >
+                            <img src="images/Simon-game-1-min.png" alt="simon-game-img">
+                            </div>
+                            <div class="project-content">
+                            <div>
+                                <h5 class="project-title">Simon Game</h5>
+                            <p class="project-text">Simon is a simple electronic memory game. The player has to repeat a growing sequence of colors. The sequence is displayed by popping up the colors.                            </p>
+                            </div>  
+                            </div>
+                        </div>
+
+                        <!-- Lymo Project -->
+                        <div class="project ">
+                            <div class="project-img" >
+                            
+                            <div id="lymo-carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#lymo-carousel" data-bs-slide-to="0" style="filter: invert(1)" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#lymo-carousel" data-bs-slide-to="1" style="filter: invert(1)" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#lymo-carousel" data-bs-slide-to="2" style="filter: invert(1)" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#lymo-carousel" data-bs-slide-to="3" style="filter: invert(1)" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#lymo-carousel" data-bs-slide-to="4" style="filter: invert(1)" aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/Lymo-pc-1-min.png" class="d-block" alt="Lymo-Project">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Lymo-pc-2-min.png" class="d-block" alt="Lymo-Project">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Lymo-pc-3-min.png" class="d-block" alt="Lymo-Project">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Lymo-pc-4-min.png" class="d-block" alt="Lymo-Project">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Lymo-pc-5-min.png" class="d-block" alt="Lymo-Project">
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="project-content">
+                            <div>
+                                <h5 class="project-title">Lymo</h5>
+                            <p class="project-text">We can add, delete, create new lists using this project. Data is restored everytime the user visits the page.</p>
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects" >
+                    <div class="project-sticky" >
+                        <h1>Backend Projects</h1>
+                        <h3></h3>
+                        <div class="sticky-description">
+                            <p>
+                                # Fetch weather using API <br><br>
+                                # To Do List <br><br>
+                                # Simple Blog Website <br><br>
+                                # Secrets
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="projects-list" >
+                        <!-- Weather APi -->
+                        <div class="project "> 
+                            <div class="project-img" >
+                            <img src="images/Weather-API-min.png" alt="weather-project-img">
+                            </div>
+                            <div class="project-content">
+                            <div>
+                                <h5 class="project-title">Fetch Weather details using API</h5>
+                                <p class="project-text">This is a blog website. You can read/post blogs. Blogs data is stored and retrived when needed. You can Login/SignUp using email/Google/Facbook/Twitter.</p>
+                            </div>  
+                            </div>
+                        </div>
+
+                        <!-- To do list -->
+                        <div class="project ">
+                            <div class="project-img" >
+                            <img src="images/to-do-list-min.png" alt="todolist-img">
+                            </div>
+                            <div class="project-content">
+                            <div>
+                                <h5 class="project-title">To do list</h5>
+                            <p class="project-text">We can add, delete, create new lists using this project. Data is restored everytime the user visits the page.</p>
+                            </div>  
+                            </div>
+                        </div>
+
+                        <!-- Blog Website -->
+                        <div class="project">
+                            <div class="project-img" >
+                            <img src="images/blog-website-min.png" alt="blog-website-img">
+                            </div>
+                            <div class="project-content">
+                            <div>
+                                <h5 class="project-title">Blog Website</h5>
+                                <p class="project-text">This is a blog website. You can read/post blogs. Blogs data is stored and retrived when needed. You can Login/SignUp using email/Google/Facbook/Twitter.</p>
+                            </div>  
+                            </div>
+                        </div>
+
+                        <!-- Secrets -->
+                        <div class="project ">
+                            <div class="project-img" >
+                            
+                            <div id="secrets-carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#secrets-carousel" data-bs-slide-to="0" style="filter: invert(1)" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#secrets-carousel" data-bs-slide-to="1" style="filter: invert(1)" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#secrets-carousel" data-bs-slide-to="2" style="filter: invert(1)" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#secrets-carousel" data-bs-slide-to="3" style="filter: invert(1)" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/Secrets-home-min.png" class="d-block" alt="Secrets-Project">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Secrets-Login-min.png" class="d-block" alt="Secrets-Project">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Secrets-Register-min.png" class="d-block" alt="Secrets-Project">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/Secrets-4-min.png" class="d-block" alt="Secrets-Project">
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="project-content">
+                                <div>
+                                    <h5 class="project-title">Secrets</h5>
+                                    <p class="project-text">Share Secrets Anonymously! User is verified using Auth2.0. After logging in, the user can see the 
+                                        secrets of other anonymous users and also share his own secret nonymously.
+                                    </p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills-section" >
+                <div class="all-skills" >
+
+                    <div class="profile-back-box " >
+                        <img class="profile-back" src="images/image-3-min.jpg" alt="profile-img">
+                    </div>
+                    <div class="profile-front-box" >
+                        <img class="profile-front" src="images/image3-no-bg-min.png" alt="no-bg-img">
+                    </div>
+
+                    <div class="skills-base" >
+                        
+                        <h1>Skills</h1>
+
+                        <div class="skills skill-1" >
+                            <p>Node.js Express</p>
+                        </div>
+                        <div class="skills skill-2" >
+                            <p>MongoDB SQL*Plus</p>
+                        </div>
+                        <div class="skills skill-3" >
+                            <p>React Auth2.0</p>
+                        </div>
+                        <div class="skills skill-4" >
+                            <p>JavaScript jQuery DOM</p>
+                        </div>
+                        <div class="skills skill-5" >
+                            <p>CSS Bootstrap</p>
+                        </div>
+                        <div class="skills skill-6" >
+                            <p>HTML EJS</p>
+                        </div>
+                        <div class="skills skill-7" >
+                            <p>VersionControl Git</p>
+                        </div>
+                        <div class="skills skill-8" >
+                            <p>Python C C++</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!-- Contacts -->
+            <section id="footer-section" >
+                <div id="footer-floor" >
+                  <div class="contact" >
+                    <h1>Want to work together?</h1>
+                    <h5>I'm currently available for freelance work.</h5>
+                    <p>Have an exciting project where you need some help or just say a friendly hello?
+                      <br>Send me over a message, and let's chat. 
+                    </p>
+                    <button class="btn btn-dark" onclick="contact()" >Contact me</button>
+                    <div class="social-contacts" >
+                        <div class="social-icon" ><a href="https://www.facebook.com/udaykiran.bonagiri.1?mibextid=ZbWKwL" ><img src="images/facebook-min.png" alt=""><i class="fa-brands fa-facebook"></i></a></div>
+                        <div class="social-icon" ><a href="https://instagram.com/uday_kiran_001?igshid=ZDdkNTZiNTM=" ><img src="images/instagram-min.png" alt=""><i class="fa-brands fa-instagram"></i></a></div>
+                        <div class="social-icon" ><a href="https://www.linkedin.com/in/uday-kiran-b016a7232" ><img src="images/linkedin-min.png" alt=""><i class="fa-brands fa-linkedin"></i></a></div>
+                        <div class="social-icon" ><a href="https://twitter.com/UdayKiran1312?t=xRFwMwyAv7QnG_kLVqXK-A&s=08" ><img src="images/twitter-min.png" alt=""><i class="fa-brands fa-twitter"></i></a></div>
+                    </div>
+                    <p>©️ 2023 UdayKiran.</p>
+                  </div>
+                </div>
+              </section>   
+
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    
+    <!-- GSAP  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+
+    <!-- Local JS -->
+    <script src="chatbot.js" ></script>
+    <script src="animation.js" ></script>
+
+
+</body>
+</html>
