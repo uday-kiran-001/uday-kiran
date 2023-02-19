@@ -4,7 +4,7 @@ body{
     margin: 0;
     background-color: black;
     color: #cec9c9;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -364,7 +364,6 @@ p{
 .all-skills{
     position: relative;
     padding: 50px 0;
-    overflow-x: hidden;
     color: white;
 }
 
@@ -653,7 +652,9 @@ p{
     }
 
     /* ---------------------------  Skills --------------------------- */
-    
+    .all-skills{
+        overflow-x:hidden;
+    }
     .profile-front-box, .profile-back-box{
         top: 18vh;
         --width: 150px;
