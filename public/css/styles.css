@@ -4,16 +4,12 @@ body{
     margin: 0;
     background-color: black;
     color: #cec9c9;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
 }
 
 p{
     margin: 0;
-}
-
-.floor{
-    overflow-x: hidden;
 }
 
 .base{
@@ -51,6 +47,7 @@ p{
 
 .navbar-toggler-icon{
     aspect-ratio: 2/3;
+    width: 1.2rem;
     min-width: 20px;
     min-height: 30px;
 }
@@ -367,6 +364,7 @@ p{
 .all-skills{
     position: relative;
     padding: 50px 0;
+    overflow-x: hidden;
     color: white;
 }
 
@@ -597,6 +595,10 @@ p{
         flex-direction: column-reverse;
         justify-content: space-evenly;
         height: fit-content;
+        padding: 0 20px 20px;
+    }
+    .descrption{
+        padding: 25px;
     }
     .descrption>.social-contacts{
         display: none;
@@ -609,9 +611,12 @@ p{
 
     /* -------------------------- BOT ----------------------------- */
     #contact-button{
-        top:95vh;
-        left:90vw;
+        top:90vh;
+        left:85vw;
         padding: 10px;
+    }
+    .contact-icon {
+        font-size: 20px;
     }
     .chatbot-floor, .chatbot-base{
         top: 20vh;
@@ -642,8 +647,9 @@ p{
         transform: translate(-1px,-160px);
     }
     .project-img>img, .project, .carousel-item>img {
-        width: 250px;
+        max-width: 250px;
         height: 150px;
+        width: 75vw;
     }
 
     /* ---------------------------  Skills --------------------------- */
@@ -688,8 +694,8 @@ p{
     }
     /* ------------------------ Contact ------------------------ */
     .contact{
-        padding: 20px;
-        margin: 50px;
+        padding: 15px;
+        margin: 40px 25px;
     }
     .social-icon> a> i {
         font-size: 15px;
