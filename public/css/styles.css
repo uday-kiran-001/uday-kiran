@@ -12,6 +12,10 @@ p{
     margin: 0;
 }
 
+.floor{
+    overflow-x: hidden;
+}
+
 .base{
     width: 100%;
     display: flex;
@@ -332,6 +336,9 @@ p{
     opacity: 1;
 }
 
+.projects-list{
+    text-align: -webkit-center;
+}
 
 .project-sticky{
     position: -webkit-sticky; /* Safari */
@@ -359,7 +366,6 @@ p{
 
 .all-skills{
     position: relative;
-    height: 130vh;
     padding: 50px 0;
     color: white;
 }
@@ -592,6 +598,9 @@ p{
         justify-content: space-evenly;
         height: fit-content;
     }
+    .descrption>.social-contacts{
+        display: none;
+    }
     /* ---------------------------  About - 2 --------------------------- */
     .about{    
         width: 70vw;
@@ -627,7 +636,7 @@ p{
         height: fit-content;
     }
     .projects-list{
-        text-align: -webkit-center;
+        margin-top: 20px;
     }
     .project:hover> .project-content{
         transform: translate(-1px,-160px);
@@ -646,6 +655,36 @@ p{
     }
     .skills{
         padding: 6px 9px;
+        font-size: 0.8rem;
+    }
+    .skills-base{
+        word-spacing: 2px;
+    }
+    .skills-base >h1{
+        font-size: 5vh;
+    }
+    .skill-1{
+        top: 10vh;
+    }
+    .skill-2{
+        top: 20vh;
+    }
+    .skill-4{
+        top: 13vh;
+        left: 22vw;
+    }
+    .skill-5{
+        top: 11vh;
+        left: -22vw;
+    }
+    .skill-6{
+        top: 30vh;
+    }
+    .skill-7{
+        left: -11vh;
+    }
+    .skill-8{
+        top: 32vh
     }
     /* ------------------------ Contact ------------------------ */
     .contact{

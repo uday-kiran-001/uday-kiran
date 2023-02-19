@@ -88,11 +88,3 @@ t1.to(".skill-1", {
         rotation:-15,
     })
 
-
-ScrollTrigger.create({
-    trigger:"#skills-section",
-    start:"top top",
-    end:"bottom top",
-    pin:true,
-    pinSpacing:false 
-});
