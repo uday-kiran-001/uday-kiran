@@ -54,7 +54,7 @@ p{
 
 .UK-icon{
     padding-right: 5px;
-    color: #4ac4f1;
+    color: #000000;
 }
 
 /* ---------------------------  About --------------------------- */
@@ -75,7 +75,11 @@ p{
     justify-content: space-between;
     padding: 50px;
     border-radius: 25px;
-    background: url("../../images/2023_01_21_0j1_Kleki-min.png");
+    /* background: url("../../images/2023_01_21_0j1_Kleki-min.png"); */
+    /* background-image: linear-gradient(30deg, #6c8c0c 4%, #afd0d8 45%, #cfcfcf 90%); */
+    /* background-image: linear-gradient(30deg, #6c8c0c 6%, #f9ff9c 45%, #cfcfcf 90%); */
+    background-image: linear-gradient(45deg, #81a021 0%, #ffffff 45%, #e0e0e0 90%);
+    /* background-color: #6c8c6c; */
     background-size:cover;
     margin: 10px;
     position: relative;
@@ -112,7 +116,8 @@ p{
 
 @media only screen and (min-width: 768px){
     .descrption{
-        min-width: 500px;
+        min-width: 60vw;
+        max-width: 60vw;
     }
 }
 
@@ -326,7 +331,7 @@ p{
     border-radius: 30px;
 }
 
-.project:hover> .project-content{
+.project:hover> a > .project-content{
     z-index: 0;
     transition-duration: 0.5s;
     transform: translate(-1px,-200px);
@@ -468,7 +473,7 @@ p{
     position: relative;
     padding: 20px 0;
     font-size: 20px;
-    word-spacing: 30px;
+    word-spacing: 20px;
     width: fit-content;
     margin: 0 auto;
 }
@@ -490,6 +495,7 @@ p{
 
 .contact{
     background: url("../../images/footer-background-min.png");
+    /* background-image: linear-gradient(347deg, #81a021 0%, #ffffff 75%, #e0e0e0 90%); */
     background-size: cover;
     text-align: center;
     margin: 40px 60px ;
@@ -642,7 +648,7 @@ p{
     .projects-list{
         margin-top: 20px;
     }
-    .project:hover> .project-content{
+    .project:hover> a>.project-content{
         transform: translate(-1px,-160px);
     }
     .project-img>img, .project, .carousel-item>img {
